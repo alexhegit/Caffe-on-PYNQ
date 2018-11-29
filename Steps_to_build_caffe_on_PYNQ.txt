@@ -7,7 +7,7 @@
    sudo update-alternatives --install /usr/bin/python3 python3 /opt/python3.6/bin/python3.6 2
    sudo update-alternatives --config python3
 6. Install dependencies for caffe
-   sudo apt upgrade
+   sudo apt-get upgrade
    sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler   --all these file go in /usr/lib/arm-linux-gnueabihf
    sudo apt-get install --no-install-recommends libboost-all-dev
    sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
