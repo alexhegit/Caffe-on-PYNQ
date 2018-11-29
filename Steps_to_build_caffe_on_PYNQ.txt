@@ -24,6 +24,7 @@
    ```
 9. Install Caffe
    https://github.com/weiliu89/caffe/tree/ssd - clone or download caffe from link provided. This is for Caffe ssd model.
+   Backup https://github.com/dengdan/ssd-caffe
 10. Copy the PYNQ version of Makefile.config (provided under PYNQ-object-Detection/caffe-ssd/) to caffe root directory
     ```
     make all
